@@ -6,7 +6,7 @@ This directory contains the tools used to stress-test the LSTM models, compare t
 
 ### plots_py folder
 This folder holds all the code used for figures in the dissertation and are visualisations of all the .py files below. 
-### Core Visualizations
+### Core Visualisations
 * **`plot_overallwarfarin_net.py`**: Generates the primary evaluation for Warfarin NET.
   * **Calibration Curves**: Predicted vs. Observed outcomes.
   * **Fairness Bar Charts**: MAE broken down by Sex, Age, and Race.
