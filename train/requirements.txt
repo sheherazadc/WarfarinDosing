@@ -1,0 +1,11 @@
+numpy>=1.23
+pandas>=1.5
+scikit-learn>=1.1
+matplotlib>=3.5
+torch>=2.0
+optuna>=3.0
+wandb>=0.15
+bayesian-optimization>=1.4
+seaborn
+smogn
+xgboost
