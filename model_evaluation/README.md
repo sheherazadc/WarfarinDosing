@@ -3,15 +3,16 @@
 This directory contains the tools used to stress-test the LSTM models, compare their performance against standard machine learning baselines, and translate their predictions into usable clinical recommendations.
 
 ## Robustness and Architecture Testing
+
 ### plots_py folder
 This folder holds all the code used for figures in the dissertation and are visualisations of all the .py files below. 
 ### Core Visualizations
-* **`plot_overallwarfarin_net.py`**: Generates the primary evaluation suite:
+* **`plot_overallwarfarin_net.py`**: Generates the primary evaluation for Warfarin NET.
   * **Calibration Curves**: Predicted vs. Observed outcomes.
   * **Fairness Bar Charts**: MAE broken down by Sex, Age, and Race.
-  * **Residual Plots**: Error distribution analysis.
-* **`plot_warfarinnet.py`**: Generates dual-attention heatmaps to show feature and visit step importance.
-* **`plot_time_lstm.py`**: Standard performance checks including KDE distribution plots.
+  * **Attention Maps: both feature and time attention,
+* **`plot_warfarinnet.py`**: Used for initial plots for testing the model and to debug.
+* **`plot_time_lstm.py`**: Generates the primary evaluation for TimeLSTM
 
 ### How to Run
 After training is complete and data exists in the `outputs/` folder:
