@@ -1,6 +1,5 @@
 **Files**: `time_aware_lstm.py`, `warfarinnet_lstm.py`
 
-```markdown
 # Neural Network Architecture
 
 The project features a custom "Time-Aware" architecture designed to mimic clinical reasoning.
@@ -13,7 +12,7 @@ The project features a custom "Time-Aware" architecture designed to mimic clinic
 
 
 ### Usage
-The model is automatically initialized by the training scripts, but can be used standalone:
+The model is automatically initialised by the training scripts, but can be used standalone:
 ```python
 from warfarinnet_lstm import WarfarinNetLSTM
 model = WarfarinNetLSTM(input_dim=18, time_dim=1, hidden_size=64)
