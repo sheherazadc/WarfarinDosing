@@ -1,5 +1,5 @@
 # Harnessing Machine Learning for the Advancement of Personalised Warfarin Dosing
-This dissertation project implements a specialised deep learning framework for predicting clinical medication dosages. It addresses the challenge of irregular clinical visit intervals and multi-variable patient data through a dual-attention LSTM architecture.
+This [dissertation project](./Harnessing_Machine_Learning_for_Personalised_Warfarin_Dosing.pdf) implements a specialised deep learning framework for predicting clinical medication dosages. It addresses the challenge of irregular clinical visit intervals and multi-variable patient data through a dual-attention LSTM architecture.
 
 ## The Project Pipeline
 The system follows a rigorous clinical machine learning pipeline:
